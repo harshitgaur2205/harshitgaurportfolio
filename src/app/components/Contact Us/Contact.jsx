@@ -28,7 +28,7 @@ export const Contact = () => {
         transition={{
           staggerChildren: 0.05,
         }}
-        className="relative z-10 mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-8"
+        className="contact-detail relative z-10 mx-auto grid max-w-4xl grid-flow-dense grid-cols-12 gap-8"
       >
         <HeaderBlock />
         <SocialsBlock />
@@ -77,7 +77,7 @@ const Block = ({ className, ...rest }) => {
 };
 
 const HeaderBlock = () => (
-  <Block className="col-span-12 row-span-2 md:col-span-6">
+  <Block className="contact-connect col-span-12 row-span-2 md:col-span-6">
     <h1 className="mb-12 text-4xl font-medium leading-tight">
       <span className="text-zinc-400">
         Let's connect to collaborate on new opportunities and projects.

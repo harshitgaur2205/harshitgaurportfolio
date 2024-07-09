@@ -42,7 +42,7 @@ const About = () => {
         id="about-heading"
         className="about-txt text-[4.5vw] font-black text-slate-500 shadow-[900px]"
       >
-        HOW WELL DO YOU KNOW ME ?
+        KNOW MORE ABOUT ME 
       </motion.h1>
       <motion.div
         initial={{ y: -50 , opacity: 0 }}

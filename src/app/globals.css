@@ -113,6 +113,9 @@ html {
   /* box-shadow: 5px 10px rgb(27,32,58) */
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  display:flex;
+  gap:40px;
+  text-wrap:wrap
 }
 
 .contact-all {
@@ -380,34 +383,24 @@ html {
     width: 70%;
   }
 
-  #contact{
+  /* #contact{
     width: 80%;
     margin-left: 10%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 500px){
   .project-heading{
     width: 90%;
   }
-  #contact{
-    width: 80%;
-    margin-left: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  .contact-detail{
+    width:90%
   }
 }
 
 @media only screen and (max-width: 450px){
-  #contact{
-    width: 90%;
-     margin-left: 0%;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly; */
+  .contact-detail{
+    width:100%
   }
 }
 
@@ -415,4 +408,13 @@ html {
   .project-heading{
     width: 95%;
   }
+  .contact-detail{
+    width: 100%;
+    margin-right: 100px;
+  }
+  .contact-connect{
+    font-size: 20px;
+  }
 }
+
+
